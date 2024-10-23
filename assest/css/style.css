@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    background-size: cover;
+}
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: black;
+}
+.hero .container{
+    width: 700px;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.hero p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+.btn-hire {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.navbar a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+.social-icons a {
+    margin-left: 15px;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 768px){
+ .header h1 {
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+    .navbar{
+        background-size: cover;
+    }
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+.gallery img:hover {
+   
+    
+        transform: scale(1.1); 
+        opacity: 0.8; 
+    
+}
+
+.gallery .col {
+    padding: 10px;
+}
